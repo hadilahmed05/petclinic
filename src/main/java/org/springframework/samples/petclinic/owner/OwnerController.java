@@ -157,5 +157,10 @@ class OwnerController {
 		mav.addObject(owner);
 		return mav;
 	}
+	
+	@GetMapping("/helooworld")
+	public  void test() {
+		
+	}
 
 }
